@@ -5,7 +5,7 @@
 # Natural Language Inference and the Dataset
 -->
 
-# *dịch tiêu đề trên*
+# *Suy diễn ngôn ngữ tự nhiên và tập dữ liệu*
 :label:`sec_natural-language-inference-and-dataset`
 
 
