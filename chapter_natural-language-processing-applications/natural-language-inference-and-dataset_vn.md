@@ -5,7 +5,7 @@
 # Natural Language Inference and the Dataset
 -->
 
-# *dịch tiêu đề trên*
+# *Suy diễn Ngôn ngữ tự nhiên và tập dữ liệu*
 :label:`sec_natural-language-inference-and-dataset`
 
 
@@ -17,14 +17,14 @@ or eliminate redundancy by identifying sentences that are semantically equivalen
 Instead, we need to be able to reason over pairs of text sequences.
 -->
 
-*dịch đoạn phía trên*
+*Trong :numref:`sec_sentiment`, chúng ta đã thảo luận về bài toán phân tích sắc thái. Mục đích của bài toán này là phân một chuỗi văn bản vào các thể loại định trước, chẳng hạn như các sắc thái đối lập. Tuy nhiên khi cần phải suy diễn một câu từ một câu khác, hoặc loại bỏ phần dư thừa bằng cách xác định các câu tương đương về ngữ nghĩa, thì việc phân loại một chuỗi văn bản là không đủ. Thay vào đó, chúng ta cần phải suy diễn qua các cặp chuỗi văn bản.*
 
 
 <!--
 ## Natural Language Inference
 -->
 
-## *dịch tiêu đề trên*
+## *Suy diễn ngôn ngữ tự nhiên*
 
 <!--
 *Natural language inference* studies whether a *hypothesis* can be inferred from a *premise*, where both are a text sequence.
@@ -32,7 +32,7 @@ In other words, natural language inference determines the logical relationship b
 Such relationships usually fall into three types:
 -->
 
-*dịch đoạn phía trên*
+*Suy diễn ngôn ngữ tự nhiên* nghiên cứu liệu một *giả thuyết* có thể được suy diễn từ một *tiên đề*, khi cả hai đều là đoạn văn bản. Nói cách khác, suy diễn ngôn ngữ tự nhiên xác định mối quan hệ logic giữa một cặp chuỗi văn bản. Các mối quan hệ đó, thường rơi vào một trong ba loại sau:
 
 
 <!--
@@ -41,8 +41,9 @@ Such relationships usually fall into three types:
 * *Neutral*: all the other cases.
 -->
 
-*dịch đoạn phía trên*
-
+* *Thứ tự* *: giả thuyết có thể được suy diễn từ tiên đề.
+* *Mâu thuẫn* *: đối của giả thuyết có thể suy diễn được từ tiên đề.
+* *Trung tính* *: tất cả các trường hợp khác.
 
 <!--
 Natural language inference is also known as the recognizing textual entailment task.
