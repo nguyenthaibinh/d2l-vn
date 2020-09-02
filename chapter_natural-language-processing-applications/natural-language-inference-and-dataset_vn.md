@@ -52,20 +52,22 @@ For example, the following pair will be labeled as *entailment* because "showing
 in the hypothesis can be inferred from "hugging one another" in the premise.
 -->
 
-*dịch đoạn phía trên*
+Suy diễn ngôn ngữ tự nhiên còn gọi là bài toán nhận dạng quan hệ kéo theo trong văn bản.
+Ví dụ, cặp sau được gán nhãn là *kéo theo* bởi vì "thể hiện tình cảm" trong giả thuyết có thể
+được suy ra từ "ôm nhau" trong tiên đề.
 
 
 <!--
 > Premise: Two women are hugging each other.
 -->
 
-> *dịch đoạn phía trên*
+> Tiên đề: Hai người phụ nữ đang ôm nhau.
 
 <!--
 > Hypothesis: Two women are showing affection.
 -->
 
-> *dịch đoạn phía trên*
+> Giả thuyết: Hai người phụ nữ đang thể hiện tình cảm.
 
 
 <!--
