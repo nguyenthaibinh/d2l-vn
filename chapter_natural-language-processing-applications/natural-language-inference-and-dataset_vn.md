@@ -5,7 +5,7 @@
 # Natural Language Inference and the Dataset
 -->
 
-# *Suy diễn Ngôn ngữ tự nhiên và tập dữ liệu*
+# *Suy diễn ngôn ngữ tự nhiên và tập dữ liệu*
 :label:`sec_natural-language-inference-and-dataset`
 
 
@@ -17,14 +17,14 @@ or eliminate redundancy by identifying sentences that are semantically equivalen
 Instead, we need to be able to reason over pairs of text sequences.
 -->
 
-Trong :numref:`sec_sentiment`, chúng ta đã thảo luận về bài toán phân tích sắc thái. Mục đích của bài toán là phân loại chuỗi văn bản vào các loại đã định trước, chẳng hạn như các sắc thái đối lập. Tuy nhiên, trong trường hợp cần xác định liệu một câu có suy ra được được từ một câu khác không, hoặc cân loại bỏ sự dư thừa bằng việc xác định các câu tương đương về ngữ nghĩa, việc phân lớp một chuỗi văn bản là không đủ. Chúng ta cần phải suy diễn trên một cặp chuỗi văn bản.
+Trong :numref:`sec_sentiment`, chúng ta đã thảo luận về bài toán phân tích sắc thái. Mục đích của bài toán là phân loại một chuỗi văn bản vào các loại đã định trước, chẳng hạn như các sắc thái đối lập. Tuy nhiên, trong trường hợp cần xác định liệu một câu có thể suy ra được từ một câu khác không, hoặc khi cần loại bỏ sự dư thừa bằng việc xác định các câu tương đương về ngữ nghĩa, việc phân lớp một chuỗi văn bản là không đủ. Khi đó chúng ta cần suy diễn trên một cặp chuỗi văn bản.
 
 
 <!--
 ## Natural Language Inference
 -->
 
-## *Suy diễn Ngôn ngữ tự nhiên*
+## Suy diễn ngôn ngữ tự nhiên
 
 <!--
 *Natural language inference* studies whether a *hypothesis* can be inferred from a *premise*, where both are a text sequence.
@@ -32,7 +32,7 @@ In other words, natural language inference determines the logical relationship b
 Such relationships usually fall into three types:
 -->
 
-*Suy diễn Ngôn ngữ tự nhiên* nghiên cứu liệu một *giả thuyết* có thể được suy ra được từ một *tiên đề* không, khi cả hai là một chuỗi văn bản. Nói cách khác, suy diễn ngôn ngữ tự nhiên quyết định mối quan hệ logic giữa một cặp chuỗi văn bản. Các mối quan hệ đó thường rơi vào một trong ba loại sau:
+*Suy diễn ngôn ngữ tự nhiên* nghiên cứu liệu một *giả thuyết* có thể được suy ra được từ một *tiên đề* không, khi cả hai là một chuỗi văn bản. Nói cách khác, suy diễn ngôn ngữ tự nhiên quyết định mối quan hệ logic giữa một cặp chuỗi văn bản. Các mối quan hệ đó thường rơi vào một trong ba loại sau:
 
 
 <!--
@@ -117,7 +117,7 @@ To study this problem, we will begin by investigating a popular natural language
 -->
 
 Suy luận ngôn ngữ tự nhiên đã là một chủ đề trung tâm để hiểu ngôn ngữ tự nhiên.
-Nó có nhiều ứng dụng khác nhau, từ truy xuất thông tin đến trả lời câu hỏi miền mở.
+Nó có nhiều ứng dụng khác nhau, từ truy xuất thông tin đến hỏi đáp trong miền mở.
 Để nghiên cứu vấn đề này, chúng ta sẽ bắt đầu bằng việc nghiên cứu một tập dữ liệu đánh giá xếp hạng phổ biến của suy luận ngôn ngữ tự nhiên.
 
 <!-- ===================== Kết thúc dịch Phần 1 ===================== -->
