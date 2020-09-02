@@ -128,7 +128,7 @@ Nó có nhiều ứng dụng khác nhau, từ truy xuất thông tin đến tr�
 ## The Stanford Natural Language Inference (SNLI) Dataset
 -->
 
-## *dịch tiêu đề trên*
+## Tập dữ liệu Suy diễn ngôn ngữ tự nhiên Stanford (SNLI)
 
 
 <!--
@@ -136,7 +136,8 @@ Stanford Natural Language Inference (SNLI) Corpus is a collection of over $500,0
 We download and store the extracted SNLI dataset in the path `../data/snli_1.0`.
 -->
 
-*dịch đoạn phía trên*
+Corpus suy diễn ngôn ngữ tự nhiên Stanford (SNLI) là một tập hợp hơn $500,000$ cặp câu tiếng Anh được gán nhãn :cite: `Bowman.Angeli.Potts.ea.2015`.
+Chúng tôi tải xuống và lưu trữ tập dữ liệu SNLI đã trích xuất trong đường dẫn `../ data / snli_1.0`.
 
 
 ```{.python .input  n=28}
@@ -162,7 +163,7 @@ data_dir = d2l.download_extract('SNLI')
 ### Reading the Dataset
 -->
 
-### *dịch tiêu đề trên*
+### Đọc tập dữ liệu
 
 
 <!--
@@ -170,7 +171,8 @@ The original SNLI dataset contains much richer information than what we really n
 Thus, we define a function `read_snli` to only extract part of the dataset, then return lists of premises, hypotheses, and their labels.
 -->
 
-*dịch đoạn phía trên*
+Tập dữ liệu SNLI gốc chứa nhiều thông tin hơn những gì chúng tôi thực sự cần trong các thí nghiệm của mình.
+Do đó, chúng tôi định nghĩa một hàm `read_snli` để trích xuất một phần của tập dữ liệu, sau đó trả về danh sách các tiên đề, giả thuyết và nhãn của chúng.
 
 
 ```{.python .input  n=66}
@@ -201,7 +203,7 @@ Now let us print the first $3$ pairs of premise and hypothesis,
 as well as their labels ("0", "1", and "2" correspond to "entailment", "contradiction", and "neutral", respectively ).
 -->
 
-*dịch đoạn phía trên*
+Bây giờ chúng ta hãy in cặp tiền đề và giả thuyết $3$ đầu tiên, cũng như nhãn của chúng ("0", "1" và "2" tương ứng với "kéo theo", "đối lập" và "trung tính").
 
 
 ```{.python .input  n=70}
@@ -219,7 +221,9 @@ The following shows that the three labels "entailment", "contradiction", and "ne
 both the training set and the testing set.
 -->
 
-*dịch đoạn phía trên*
+Tập huấn luyện có khoảng $550,000$ cặp và tập kiểm tra có khoảng $10,000$ cặp.
+Kết quả sau cho thấy ba nhãn "kéo theo", "đối lập" và "trung tính" được cân bằng trong
+cả tập huấn luyện và tập kiểm tra.
 
 
 ```{.python .input}
@@ -233,7 +237,7 @@ for data in [train_data, test_data]:
 ### Defining a Class for Loading the Dataset
 -->
 
-### *dịch tiêu đề trên*
+### Định nghĩa một lớp để tải tập dữ liệu
 
 
 <!--
@@ -244,7 +248,12 @@ while special tokens “&lt;pad&gt;” will be appended to shorter sequences unt
 By implementing the `__getitem__` function, we can arbitrarily access the premise, hypothesis, and label with the index `idx`.
 -->
 
-*dịch đoạn phía trên*
+Sau đây đây chúng ta định nghĩa một lớp để tải tập dữ liệu SNLI bằng cách kế thừa từ lớp `Dataset` trong Gluon.
+Đối số `num_steps` trong hàm tạo của lớp lớp chỉ định độ dài của chuỗi văn bản để mỗi mini-batch của các chuỗi sẽ có cùng kích thước.
+Nói cách khác, các mã thông báo sau `num_steps` đầu tiên trong chuỗi dài hơn sẽ bị cắt bỏ,
+trong khi các mã thông báo đặc biệt “&lt;pad&gt;” sẽ được thêm vào các chuỗi ngắn hơn cho đến khi độ dài của chúng trở thành `num_steps`.
+Bằng cách triển khai hàm `__getitem__`, chúng ta có thể tùy ý truy cập tiên đề, giả thuyết và nhãn với chỉ mục` idx`.
+
 
 
 ```{.python .input  n=115}
