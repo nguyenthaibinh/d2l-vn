@@ -5,7 +5,7 @@
 # Natural Language Inference and the Dataset
 -->
 
-# *dịch tiêu đề trên*
+# *Suy diễn Ngôn ngữ tự nhiên và tập dữ liệu*
 :label:`sec_natural-language-inference-and-dataset`
 
 
@@ -17,14 +17,14 @@ or eliminate redundancy by identifying sentences that are semantically equivalen
 Instead, we need to be able to reason over pairs of text sequences.
 -->
 
-*dịch đoạn phía trên*
+Trong :numref:`sec_sentiment`, chúng ta đã thảo luận về bài toán phân tích sắc thái. Mục đích của bài toán là phân loại chuỗi văn bản vào các loại đã định trước, chẳng hạn như các sắc thái đối lập. Tuy nhiên, trong trường hợp cần xác định liệu một câu có suy ra được được từ một câu khác không, hoặc cân loại bỏ sự dư thừa bằng việc xác định các câu tương đương về ngữ nghĩa, việc phân lớp một chuỗi văn bản là không đủ. Chúng ta cần phải suy diễn trên một cặp chuỗi văn bản.
 
 
 <!--
 ## Natural Language Inference
 -->
 
-## *dịch tiêu đề trên*
+## *Suy diễn Ngôn ngữ tự nhiên*
 
 <!--
 *Natural language inference* studies whether a *hypothesis* can be inferred from a *premise*, where both are a text sequence.
@@ -32,7 +32,7 @@ In other words, natural language inference determines the logical relationship b
 Such relationships usually fall into three types:
 -->
 
-*dịch đoạn phía trên*
+*Suy diễn Ngôn ngữ tự nhiên* nghiên cứu liệu một *giả thuyết* có thể được suy ra được từ một *tiên đề* không, khi cả hai là một chuỗi văn bản. Nói cách khác, suy diễn ngôn ngữ tự nhiên quyết định mối quan hệ logic giữa một cặp chuỗi văn bản. Các mối quan hệ đó thường rơi vào một trong ba loại sau:
 
 
 <!--
@@ -41,7 +41,9 @@ Such relationships usually fall into three types:
 * *Neutral*: all the other cases.
 -->
 
-*dịch đoạn phía trên*
+* *Kéo theo*: Giả thuyết có thể suy ra được từ tiên đề.
+* *Đối lập*: Phủ định của giả thuyết có thể suy ra được từ tiên đề.
+* *Trung tính*: tất cả các trường hợp khác.
 
 
 <!--
