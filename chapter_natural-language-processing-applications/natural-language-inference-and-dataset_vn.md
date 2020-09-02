@@ -52,7 +52,7 @@ For example, the following pair will be labeled as *entailment* because "showing
 in the hypothesis can be inferred from "hugging one another" in the premise.
 -->
 
-Suy diễn ngôn ngữ tự nhiên còn gọi là bài toán nhận dạng quan hệ kéo theo trong văn bản.
+Suy diễn ngôn ngữ tự nhiên còn được biết đến là bài toán nhận dạng quan hệ kéo theo trong văn bản.
 Ví dụ, cặp sau được gán nhãn là *kéo theo* bởi vì "thể hiện tình cảm" trong giả thuyết có thể
 được suy ra từ "ôm nhau" trong tiên đề.
 
