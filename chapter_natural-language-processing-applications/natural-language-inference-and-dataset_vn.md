@@ -118,7 +118,7 @@ To study this problem, we will begin by investigating a popular natural language
 
 Suy luận ngôn ngữ tự nhiên đã là một chủ đề trung tâm để hiểu ngôn ngữ tự nhiên.
 Nó có nhiều ứng dụng khác nhau, từ truy xuất thông tin đến trả lời câu hỏi miền mở.
-Để nghiên cứu vấn đề này, chúng ta sẽ bắt đầu bằng cách điều tra tập dữ liệu đánh giá xếp hạng phổ biến của suy luận ngôn ngữ tự nhiên.
+Để nghiên cứu vấn đề này, chúng ta sẽ bắt đầu bằng việc nghiên cứu một tập dữ liệu đánh giá xếp hạng phổ biến của suy luận ngôn ngữ tự nhiên.
 
 <!-- ===================== Kết thúc dịch Phần 1 ===================== -->
 
