@@ -74,7 +74,7 @@ Ví dụ, cặp sau được gán nhãn là *kéo theo* bởi vì "thể hiện 
 The following is an example of *contradiction* as "running the coding example" indicates "not sleeping" rather than "sleeping".
 -->
 
-Sau đây là một ví dụ về *đối lập* bởi vị "chạy đoạn mã ví dụ" cho biết "không ngủ" chứ không phải "ngủ".
+Sau đây là một ví dụ về *đối lập* bởi vì "chạy đoạn mã ví dụ" cho biết "không ngủ" chứ không phải "ngủ".
 
 
 <!--
