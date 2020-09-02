@@ -74,27 +74,27 @@ Ví dụ, cặp sau được gán nhãn là *kéo theo* bởi vì "thể hiện 
 The following is an example of *contradiction* as "running the coding example" indicates "not sleeping" rather than "sleeping".
 -->
 
-*dịch đoạn phía trên*
+Sau đây là một ví dụ về *đối lập* bởi vị "chạy đoạn mã ví dụ" cho biết "không ngủ" chứ không phải "ngủ".
 
 
 <!--
 > Premise: A man is running the coding example from Dive into Deep Learning.
 -->
 
-> *dịch đoạn phía trên*
+> Tiên đề: Một người đàn ông đang chạy đoạn mã ví dụ trong Đắm mình vào học sâu.
 
 <!--
 > Hypothesis: The man is sleeping.
 -->
 
-> *dịch đoạn phía trên*
+> Giả thuyết: Người đàn ông đang ngủ.
 
 
 <!--
 The third example shows a *neutrality* relationship because neither "famous" nor "not famous" can be inferred from the fact that "are performing for us". 
 -->
 
-*dịch đoạn phía trên*
+Ví dụ thứ ba nêu mối quan hệ *trung tính* bởi vì không có từ nào trong "nổi tiếng" hoặc "không nổi tiếng" có thể được suy ra từ sự thật rằng "đang biểu diễn cho chúng ta".
 
 
 <!--
