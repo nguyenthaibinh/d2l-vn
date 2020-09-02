@@ -116,7 +116,9 @@ It enjoys wide applications ranging from information retrieval to open-domain qu
 To study this problem, we will begin by investigating a popular natural language inference benchmark dataset.
 -->
 
-*dịch đoạn phía trên*
+Suy luận ngôn ngữ tự nhiên đã là một chủ đề trung tâm để hiểu ngôn ngữ tự nhiên.
+Nó có nhiều ứng dụng khác nhau, từ truy xuất thông tin đến trả lời câu hỏi miền mở.
+Để nghiên cứu vấn đề này, chúng ta sẽ bắt đầu bằng cách điều tra tập dữ liệu benchmark phổ biến của suy luận ngôn ngữ tự nhiên.
 
 <!-- ===================== Kết thúc dịch Phần 1 ===================== -->
 
