@@ -136,7 +136,7 @@ Stanford Natural Language Inference (SNLI) Corpus is a collection of over $500,0
 We download and store the extracted SNLI dataset in the path `../data/snli_1.0`.
 -->
 
-Kho ngữ liệu suy diễn ngôn ngữ tự nhiên Stanford (SNLI) là một tập hợp hơn $500,000$ cặp câu tiếng Anh được gán nhãn :cite: `Bowman.Angeli.Potts.ea.2015`.
+Kho ngữ liệu suy diễn ngôn ngữ tự nhiên Stanford (SNLI) là một tập hợp hơn 500.000 cặp câu tiếng Anh được gán nhãn :cite: `Bowman.Angeli.Potts.ea.2015`.
 Chúng tôi tải xuống và lưu trữ tập dữ liệu SNLI đã trích xuất trong đường dẫn `../ data / snli_1.0`.
 
 
@@ -203,7 +203,7 @@ Now let us print the first $3$ pairs of premise and hypothesis,
 as well as their labels ("0", "1", and "2" correspond to "entailment", "contradiction", and "neutral", respectively ).
 -->
 
-Bây giờ chúng ta hãy in cặp tiền đề và giả thuyết $3$ đầu tiên, cũng như nhãn của chúng ("0", "1" và "2" tương ứng với "kéo theo", "đối lập" và "trung tính").
+Bây giờ chúng ta hãy in cặp tiền đề và giả thuyết 3 đầu tiên, cũng như nhãn của chúng ("0", "1" và "2" tương ứng với "kéo theo", "đối lập" và "trung tính").
 
 
 ```{.python .input  n=70}
@@ -221,7 +221,7 @@ The following shows that the three labels "entailment", "contradiction", and "ne
 both the training set and the testing set.
 -->
 
-Tập huấn luyện có khoảng $550,000$ cặp và tập kiểm tra có khoảng $10,000$ cặp.
+Tập huấn luyện có khoảng 550,000 cặp và tập kiểm tra có khoảng 10,000 cặp.
 Kết quả sau cho thấy ba nhãn "kéo theo", "đối lập" và "trung tính" được cân bằng trong
 cả tập huấn luyện và tập kiểm tra.
 
@@ -249,7 +249,7 @@ By implementing the `__getitem__` function, we can arbitrarily access the premis
 -->
 
 Sau đây đây chúng ta định nghĩa một lớp để tải tập dữ liệu SNLI bằng cách kế thừa từ lớp `Dataset` trong Gluon.
-Đối số `num_steps` trong hàm tạo của lớp lớp chỉ định độ dài của chuỗi văn bản để mỗi mini-batch của các chuỗi sẽ có cùng kích thước.
+Đối số `num_steps` trong hàm tạo của lớp lớp chỉ định độ dài của chuỗi văn bản để mỗi minibatch của các chuỗi sẽ có cùng kích thước.
 Nói cách khác, các token sau `num_steps` token đầu tiên trong chuỗi dài hơn sẽ bị cắt bỏ,
 trong khi các token đặc biệt “&lt;pad&gt;” sẽ được thêm vào các chuỗi ngắn hơn cho đến khi độ dài của chúng trở thành `num_steps`.
 Bằng cách triển khai hàm `__getitem__`, chúng ta có thể tùy ý truy cập tiên đề, giả thuyết và nhãn với chỉ mục` idx`.
@@ -334,7 +334,7 @@ and invoke the `load_data_snli` function to get the data iterators and vocabular
 Then we print the vocabulary size.
 -->
 
-Ở đây ta đặt kích thước batch là $128$ và độ dài chuỗi là $50$,
+Ở đây ta đặt kích thước batch là 128 và độ dài chuỗi là 50,
 và gọi hàm `load_data_snli` để lấy các trình lặp dữ liệu và từ vựng.
 Sau đó in kích thước từ vựng.
 
@@ -351,7 +351,7 @@ Contrary to sentiment analysis,
 we have $2$ inputs `X[0]` and `X[1]` representing pairs of premises and hypotheses.
 -->
 
-Bây giờ chúng ta in kích thước của mini-batch đầu tiên. Ngược lại với phân tích sắc thái, ở đây chúng ta có $2$ đầu vào `X [0]` và `X [1]` đại diện cho các cặp tiên đề và giả thuyết.
+Bây giờ chúng ta in kích thước của minibatch đầu tiên. Ngược lại với phân tích sắc thái, ở đây chúng ta có 2 đầu vào `X [0]` và `X [1]`, đại diện cho các cặp tiên đề và giả thuyết.
 
 
 ```{.python .input  n=113}
@@ -383,7 +383,7 @@ Can you design a measure for evaluating machine translation results by using nat
 2. How can we change hyperparameters to reduce the vocabulary size? 
 -->
 
-1. Dịch máy từ lâu đã được đánh giá dựa trên sự đối sánh bề ngoài $n$-gram giữa bản dịch đầu ra và bản dịch thực.
+1. Dịch máy từ lâu đã được đánh giá dựa trên sự đối sánh bề ngoài n-gram giữa bản dịch đầu ra và bản dịch thực.
 Bạn có thể thiết kế một độ đo để đánh giá kết quả dịch máy bằng cách sử dụng suy luận ngôn ngữ tự nhiên không?
 2. Làm thế nào chúng ta có thể thay đổi các siêu tham số để giảm kích thước từ vựng?
 
