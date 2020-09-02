@@ -94,20 +94,20 @@ Sau đây là một ví dụ về *đối lập* bởi vị "chạy đoạn mã 
 The third example shows a *neutrality* relationship because neither "famous" nor "not famous" can be inferred from the fact that "are performing for us". 
 -->
 
-Ví dụ thứ ba nêu mối quan hệ *trung tính* bởi vì không có từ nào trong "nổi tiếng" hoặc "không nổi tiếng" có thể được suy ra từ sự thật rằng "đang biểu diễn cho chúng ta".
+Ví dụ thứ ba cho thấy mối quan hệ *trung tính* vì cả "nổi tiếng" và "không nổi tiếng" đều không thể được suy ra từ thực tế là "đang biểu diễn cho chúng tôi".
 
 
 <!--
 > Premise: The musicians are performing for us.
 -->
 
-> *dịch đoạn phía trên*
+> Tiên đề: Các nhạc công đang biểu diễn cho chúng tôi.
 
 <!--
 > Hypothesis: The musicians are famous.
 -->
 
-> *dịch đoạn phía trên*
+> Giả thuyết: Các nhạc công là nổi tiếng.
 
 
 <!--
