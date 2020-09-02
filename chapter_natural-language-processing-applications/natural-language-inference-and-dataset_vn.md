@@ -294,7 +294,7 @@ class SNLIDataset(gluon.data.Dataset):
 ### Putting All Things Together
 -->
 
-### *dịch tiêu đề trên*
+### Gộp tất cả lại với nhau
 
 
 <!--
@@ -304,7 +304,10 @@ It is noteworthy that we must use the vocabulary constructed from the training s
 As a result, any new token from the testing set will be unknown to the model trained on the training set.
 -->
 
-*dịch đoạn phía trên*
+Bây giờ chúng ta có thể gọi hàm `read_snli` và lớp `SNLIDataset` để tải xuống tập dữ liệu SNLI và
+trả về các thể hiện `DataLoader` cho cả tập huấn luyện và kiểm tra, cùng với từ vựng của tập huấn luyện.
+Chú ý là chúng ta phải sử dụng từ vựng được xây dựng từ tập huấn luyện giống như từ vựng của tập kiểm tra.
+Do đó bất kỳ mã mới nào từ bộ thử nghiệm sẽ không được mô hình được huấn luyện trên tập huấn luyện biết đến.
 
 
 ```{.python .input  n=114}
@@ -331,7 +334,9 @@ and invoke the `load_data_snli` function to get the data iterators and vocabular
 Then we print the vocabulary size.
 -->
 
-*dịch đoạn phía trên*
+Ở đây ta đặt kích thước batch là $128$ và độ dài chuỗi là $50$,
+và gọi hàm `load_data_snli` để lấy các trình lặp dữ liệu và từ vựng.
+Sau đó in kích thước từ vựng.
 
 
 ```{.python .input  n=111}
@@ -346,7 +351,7 @@ Contrary to sentiment analysis,
 we have $2$ inputs `X[0]` and `X[1]` representing pairs of premises and hypotheses.
 -->
 
-*dịch đoạn phía trên*
+Bây giờ chúng ta in kích thước của mini-batch đầu tiên. Ngược lại với phân tích sắc thái, ở đây chúng ta có $2$ đầu vào `X [0]` và `X [1]` đại diện cho các cặp tiên đề và giả thuyết.
 
 
 ```{.python .input  n=113}
@@ -365,7 +370,9 @@ for X, Y in train_iter:
 * Stanford Natural Language Inference (SNLI) Corpus is a popular benchmark dataset of natural language inference.
 -->
 
-*dịch đoạn phía trên*
+* Suy luận ngôn ngữ tự nhiên nghiên cứu liệu một giả thuyết có thể được suy ra từ một tiên đề, trong đó cả hai đều là một chuỗi văn bản.
+* Trong suy luận ngôn ngữ tự nhiên, mối quan hệ giữa các tiền đề và giả thuyết bao gồm sự kéo theo, đối lập và trung tính.
+* Corpus suy diễn ngôn ngữ tự nhiên Stanford (SNLI) là một bộ dữ liệu benchmark phổ biến của suy luận ngôn ngữ tự nhiên.
 
 
 ## Bài tập
@@ -376,7 +383,9 @@ Can you design a measure for evaluating machine translation results by using nat
 2. How can we change hyperparameters to reduce the vocabulary size? 
 -->
 
-*dịch đoạn phía trên*
+1. Dịch máy từ lâu đã được đánh giá dựa trên sự đối sánh bề ngoài $n$-gram giữa bản dịch đầu ra và bản dịch thực.
+Bạn có thể thiết kế một độ đo để đánh giá kết quả dịch máy bằng cách sử dụng suy luận ngôn ngữ tự nhiên không?
+2. Làm thế nào chúng ta có thể thay đổi các siêu tham số để giảm kích thước từ vựng?
 
 <!-- ===================== Kết thúc dịch Phần 3 ===================== -->
 <!-- ========================================= REVISE - KẾT THÚC ===================================-->
