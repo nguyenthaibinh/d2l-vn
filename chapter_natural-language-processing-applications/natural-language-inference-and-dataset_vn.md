@@ -32,7 +32,7 @@ In other words, natural language inference determines the logical relationship b
 Such relationships usually fall into three types:
 -->
 
-*Suy diễn ngôn ngữ tự nhiên* nghiên cứu liệu một *giả thuyết* có thể được suy ra được từ một *tiên đề* không, khi cả hai là một chuỗi văn bản. Nói cách khác, suy diễn ngôn ngữ tự nhiên quyết định mối quan hệ logic giữa một cặp chuỗi văn bản. Các mối quan hệ đó thường rơi vào một trong ba loại sau:
+*Suy diễn ngôn ngữ tự nhiên* nghiên cứu liệu một *giả thuyết* có thể được suy ra được từ một *tiên đề* không, khi cả hai là một chuỗi văn bản. Nói cách khác, suy diễn ngôn ngữ tự nhiên quyết định mối quan hệ logic giữa một cặp chuỗi văn bản. Các mối quan hệ đó thường rơi vào một trong ba loại sau đây:
 
 
 <!--
