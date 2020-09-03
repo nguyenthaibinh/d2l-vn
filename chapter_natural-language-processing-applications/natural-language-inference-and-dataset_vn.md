@@ -116,9 +116,9 @@ It enjoys wide applications ranging from information retrieval to open-domain qu
 To study this problem, we will begin by investigating a popular natural language inference benchmark dataset.
 -->
 
-Suy luận ngôn ngữ tự nhiên đã là một chủ đề trung tâm để hiểu ngôn ngữ tự nhiên.
+Suy luận ngôn ngữ tự nhiên là một chủ đề trung tâm để hiểu ngôn ngữ tự nhiên.
 Nó có nhiều ứng dụng khác nhau, từ truy xuất thông tin đến hỏi đáp trong miền mở.
-Để nghiên cứu vấn đề này, chúng ta sẽ bắt đầu bằng việc nghiên cứu một tập dữ liệu đánh giá xếp hạng phổ biến của suy luận ngôn ngữ tự nhiên.
+Để nghiên cứu vấn đề này, chúng ta sẽ bắt đầu bằng việc tìm hiểu một tập dữ liệu đánh giá xếp hạng phổ biến của suy luận ngôn ngữ tự nhiên.
 
 <!-- ===================== Kết thúc dịch Phần 1 ===================== -->
 
