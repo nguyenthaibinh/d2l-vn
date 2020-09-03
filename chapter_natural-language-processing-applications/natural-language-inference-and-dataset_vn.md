@@ -41,8 +41,8 @@ Such relationships usually fall into three types:
 * *Neutral*: all the other cases.
 -->
 
-* *Kéo theo*: Giả thuyết có thể suy ra được từ tiên đề.
-* *Đối lập*: Phủ định của giả thuyết có thể suy ra được từ tiên đề.
+* *Kéo theo*: giả thuyết có thể suy ra được từ tiên đề.
+* *Đối lập*: phủ định của giả thuyết có thể suy ra được từ tiên đề.
 * *Trung tính*: tất cả các trường hợp khác.
 
 
