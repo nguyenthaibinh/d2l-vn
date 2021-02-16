@@ -136,7 +136,7 @@ Stanford Natural Language Inference (SNLI) Corpus is a collection of over $500,0
 We download and store the extracted SNLI dataset in the path `../data/snli_1.0`.
 -->
 
-Corpus suy diễn ngôn ngữ tự nhiên Stanford (SNLI) là một tập hợp hơn $500,000$ cặp câu tiếng Anh được gán nhãn :cite: `Bowman.Angeli.Potts.ea.2015`.
+Kho ngữ liệu suy diễn ngôn ngữ tự nhiên Stanford (SNLI) là một tập hợp hơn $500,000$ cặp câu tiếng Anh được gán nhãn :cite: `Bowman.Angeli.Potts.ea.2015`.
 Chúng tôi tải xuống và lưu trữ tập dữ liệu SNLI đã trích xuất trong đường dẫn `../ data / snli_1.0`.
 
 
@@ -250,8 +250,8 @@ By implementing the `__getitem__` function, we can arbitrarily access the premis
 
 Sau đây đây chúng ta định nghĩa một lớp để tải tập dữ liệu SNLI bằng cách kế thừa từ lớp `Dataset` trong Gluon.
 Đối số `num_steps` trong hàm tạo của lớp lớp chỉ định độ dài của chuỗi văn bản để mỗi mini-batch của các chuỗi sẽ có cùng kích thước.
-Nói cách khác, các mã thông báo sau `num_steps` đầu tiên trong chuỗi dài hơn sẽ bị cắt bỏ,
-trong khi các mã thông báo đặc biệt “&lt;pad&gt;” sẽ được thêm vào các chuỗi ngắn hơn cho đến khi độ dài của chúng trở thành `num_steps`.
+Nói cách khác, các token sau `num_steps` token đầu tiên trong chuỗi dài hơn sẽ bị cắt bỏ,
+trong khi các token đặc biệt “&lt;pad&gt;” sẽ được thêm vào các chuỗi ngắn hơn cho đến khi độ dài của chúng trở thành `num_steps`.
 Bằng cách triển khai hàm `__getitem__`, chúng ta có thể tùy ý truy cập tiên đề, giả thuyết và nhãn với chỉ mục` idx`.
 
 
@@ -307,7 +307,7 @@ As a result, any new token from the testing set will be unknown to the model tra
 Bây giờ chúng ta có thể gọi hàm `read_snli` và lớp `SNLIDataset` để tải xuống tập dữ liệu SNLI và
 trả về các thể hiện `DataLoader` cho cả tập huấn luyện và kiểm tra, cùng với từ vựng của tập huấn luyện.
 Chú ý là chúng ta phải sử dụng từ vựng được xây dựng từ tập huấn luyện giống như từ vựng của tập kiểm tra.
-Do đó bất kỳ mã mới nào từ bộ thử nghiệm sẽ không được mô hình được huấn luyện trên tập huấn luyện biết đến.
+Do đó bất kỳ token mới nào từ tập kiểm tra sẽ không được mô hình được huấn luyện trên tập huấn luyện biết đến.
 
 
 ```{.python .input  n=114}
@@ -372,7 +372,7 @@ for X, Y in train_iter:
 
 * Suy luận ngôn ngữ tự nhiên nghiên cứu liệu một giả thuyết có thể được suy ra từ một tiên đề, trong đó cả hai đều là một chuỗi văn bản.
 * Trong suy luận ngôn ngữ tự nhiên, mối quan hệ giữa các tiền đề và giả thuyết bao gồm sự kéo theo, đối lập và trung tính.
-* Corpus suy diễn ngôn ngữ tự nhiên Stanford (SNLI) là một bộ dữ liệu benchmark phổ biến của suy luận ngôn ngữ tự nhiên.
+* Kho ngữ liệu suy diễn ngôn ngữ tự nhiên Stanford (SNLI) là một bộ dữ liệu benchmark phổ biến của suy luận ngôn ngữ tự nhiên.
 
 
 ## Bài tập
